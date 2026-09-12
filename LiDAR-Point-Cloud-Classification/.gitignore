@@ -1,0 +1,71 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# Data files (large / binary)
+# =========================
+*.las
+*.laz
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+*.bz2
+
+# Optional: ignore all data folders, but keep README
+data/*
+!data/README.md
+
+# If you have specific large outputs
+results/figures/*.png
+results/metrics/*.txt
+
+# =========================
+# Documents / reports
+# =========================
+# Uncomment if you don't want to track PDFs/DOCX
+# *.pdf
+# *.docx
+# *.doc
+
+# =========================
+# OS / IDE
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
